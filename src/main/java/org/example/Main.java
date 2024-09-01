@@ -12,7 +12,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        String url = "https://api.nasa.gov/planetary/apod?api_key=wKiOhrlLDXymnNT52eS9dJi8HuikNzVqYLuY5oF6&date=2024-08-31";
+        String url = "https://api.nasa.gov/planetary/apod?api_key=YOUR_API-KEY";
 
         CloseableHttpClient httpclient = HttpClients.createDefault();
         HttpGet httpGet = new HttpGet(url);
